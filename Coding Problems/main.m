@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Quicksort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        [Quicksort sort];
+        
     }
     return 0;
 }
